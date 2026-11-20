@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Laba4-Arrays/Laba4-Arrays.vcxproj" Id="05849bbc-d37e-42ff-9413-890031516eac" />
+</Solution>
