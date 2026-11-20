@@ -13,6 +13,9 @@ int main() {
 	const int columnsCount = 3;
 	bool positiveRowFound = false;
 	int C[rowsCount][columnsCount];
+	int countOfPositive = 0;
+	int countOfNegative = 0;
+	int sumOfEven = 0;
 
 	cout << "Enter matrix elements (" << rowsCount << "x" << columnsCount << "):" << endl;
 	for (int rowIndex = 0; rowIndex < rowsCount; ++rowIndex) {
@@ -32,9 +35,9 @@ int main() {
 	cout << endl;
 
 	for (int rowIndex = 0; rowIndex < rowsCount; ++rowIndex) {
-		int countOfPositive = 0;
-		int countOfNegative = 0;
-		int sumOfEven = 0;
+		countOfPositive = 0;
+		countOfNegative = 0;
+		sumOfEven = 0;
 
 		for (int columnIndex = 0; columnIndex < columnsCount; ++columnIndex) {
 			if (C[rowIndex][columnIndex] >= 0) {
